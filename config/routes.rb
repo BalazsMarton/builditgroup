@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  root 'pages/index'
+  root 'pages#index'
   get 'index' => 'pages#index'
   get 'rolunk' => 'pages#about'
   get 'referenciak' => 'pages#reference'
   get 'szolgaltatasok' => 'pages#service'
   get 'kapcsolat' => 'pages#reference'
-  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
