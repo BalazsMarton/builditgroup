@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BuildItGroup</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to 'Főoldal', root_path %></li>
+      <li class="<%= 'active' if current_page?(rolunk_path) %>"><%= link_to 'Rólunk', rolunk_path %></li>
+      <li class="<%= 'active' if current_page?(szolgaltatasok_path) %>"><%= link_to 'Szolgáltatások', szolgaltatasok_path %></li>
+      <li class="<%= 'active' if current_page?(referenciak_path) %>"><%= link_to 'Referenciák', referenciak_path %></li>
+      <li class="<%= 'active' if current_page?(kapcsolat_path) %>"><%= link_to 'Kapcsolat', kapcsolat_path %></li>
+    </ul>
+  </div>
+</nav>
