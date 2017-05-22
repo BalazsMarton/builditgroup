@@ -11,4 +11,14 @@ font-style: $font-style;
 font-stretch: $font-stretch;
 }
 }
-@include declare-font-face('Lato-Regular', 'Lato-Regular', 400);
+@include declare-font-face('lato-regular', 'lato-regular', 400);
+@include declare-font-face('lato-bold', 'lato-bold', 700);
+@include declare-font-face('lato-black', 'lato-black', 900);
+@include declare-font-face('sourcesanspro-regular', 'sourcesanspro-regular', 400);
+@include declare-font-face('sourcesanspro-bold', 'sourcesanspro-bold', 700);
+
+.dirinfo-text{
+	font-family: "sourcesanspro-bold";
+	font-size: 36px;
+	font-weight: 400;
+}
