@@ -20,4 +20,15 @@ font-stretch: $font-stretch;
 .dirinfo-text{
 	font-family: "sourcesanspro-bold";
 	font-size: 36px;
+	white-space: normal;
+}
+.navbar-wrapper{
+	height:50px;
+}
+
+/*OWL CAROUSEL INIT*/
+#opening-carousel-wrap{
+	.col-sm-12{
+		padding:0;
+	}
 }
