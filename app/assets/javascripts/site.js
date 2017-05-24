@@ -16,5 +16,20 @@ if(('.owl-carousel').length) {
          };
 
      }
+$("#full-navbar").headroom({
+	"offset": 205,
+  "tolerance": 5,
+  "classes": {
+    "initial": "animated",
+    "pinned": "slideInDown",
+    "unpinned": "slideOutUp"}
+});
+$(".navbar-toggle").click(function() {
+         if ($("#myNavbar").hasClass("in")) {
+             return $("body").removeClass("no-scroll");
+         } else {
+             return $("body").addClass("no-scroll");
+         }
+    });
 
 })

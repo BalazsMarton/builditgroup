@@ -16,6 +16,10 @@ font-stretch: $font-stretch;
 @include declare-font-face('lato-black', 'lato-black', 900);
 @include declare-font-face('sourcesanspro-regular', 'sourcesanspro-regular', 400);
 @include declare-font-face('sourcesanspro-bold', 'sourcesanspro-bold', 700);
+.no-scroll{
+	overflow: hidden;
+	width: 100%;
+}
 
 .dirinfo-text{
 	font-family: "sourcesanspro-bold";
