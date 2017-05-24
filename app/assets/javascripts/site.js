@@ -8,6 +8,8 @@ if(('.owl-carousel').length) {
         loop:true,
         autoplay:true,
         autoplayTimeout:5000,
+        touchDrag  : false,
+        mouseDrag  : false
     });
     if(window.matchMedia('(max-width: 767px)').matches) {
         var bg = jQuery(".carousel-item");
