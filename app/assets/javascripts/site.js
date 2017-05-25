@@ -40,5 +40,6 @@ $(".navbar-toggle").click(function() {
         return $("body").addClass("no-scroll");
     }
 });
+new WOW().init();
 
 })
