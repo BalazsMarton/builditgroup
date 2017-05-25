@@ -1,6 +1,6 @@
 /* base styles */
 
-section {
+.section {
 	margin-top: 75px;
 }
 
@@ -20,7 +20,7 @@ h2 {
 	color: #506a85;	
 }
 
-#services p {
+#services h5 {
 	color: #707e8c;
 }
 
@@ -60,13 +60,17 @@ h2 {
 	margin-top: 75px;
 }
 
-#works p {
+#works h5 {
 	color: #707e8c;
 }
 
 #works .ref {
 	background-color: #fff;
 	margin-bottom: 75px;
+}
+
+.ref p {
+	padding-bottom: 20px;
 }
 
 #works h3 a {
@@ -76,4 +80,36 @@ h2 {
 #works h3 a:hover {
 	text-decoration: none;
 	color: #1abb9c;
+}
+
+.ref {
+
+    border: 1px solid #e6e9ed;
+}
+
+#works button {
+ background-color: #1abb9c;
+ color: #fff;
+ text-transform: uppercase;
+ font-family: 'sourcesanspro-bold';
+ box-shadow: 0px 2px #14957c;
+}
+
+.button-row {
+	margin-bottom: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	min-height:400px;
 }
