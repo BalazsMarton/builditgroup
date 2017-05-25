@@ -13,8 +13,10 @@ if(('.owl-carousel').length) {
     });
     $('.owl-carousel').on('changed.owl.carousel', function(event) {
       var item = event.item.index - 2;     // Position of the current item
-      $('h1').removeClass('animated bounce');
-    $('.owl-item').not('.cloned').eq(item).find('h1').addClass('animated bounce');
+      $('h1').removeClass('animated fadeInLeft');
+      $('h5').removeClass('animated fadeInRight');
+        $('.owl-item').not('.cloned').eq(item).find('h1').addClass('animated fadeInLeft');
+        $('.owl-item').not('.cloned').eq(item).find('h5').addClass('animated fadeInRight');
     });
 
     if(window.matchMedia('(max-width: 767px)').matches) {
