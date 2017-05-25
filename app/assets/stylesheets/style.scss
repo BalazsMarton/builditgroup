@@ -37,7 +37,7 @@ display: box;
 /* owl overrides */
 .carousel-item{
 	padding:0px;
-	height:540px;
+	height: calc(100vh - 62px);
 	width:100%;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
