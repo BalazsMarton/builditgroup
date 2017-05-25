@@ -9,8 +9,14 @@ if(('.owl-carousel').length) {
         autoplay:true,
         autoplayTimeout:5000,
         touchDrag  : false,
-        mouseDrag  : false
+        mouseDrag  : false,
     });
+    $('.owl-carousel').on('changed.owl.carousel', function(event) {
+      var item = event.item.index - 2;     // Position of the current item
+      $('h1').removeClass('animated bounce');
+    $('.owl-item').not('.cloned').eq(item).find('h1').addClass('animated bounce');
+    });
+
     if(window.matchMedia('(max-width: 767px)').matches) {
         var bg = jQuery(".carousel-item");
         bg.height(jQuery(window).height()-62);

@@ -36,6 +36,8 @@ display: box;
 
 /* owl overrides */
 .carousel-item{
+	display: flex;
+	align-items:center;
 	padding:0px;
 	height: calc(100vh - 62px);
 	width:100%;
@@ -45,6 +47,8 @@ display: box;
 	background-repeat: no-repeat;
     background-position: center;
     .carousel-title{
+    	width:100%;
+    	text-align:center;
     	h1{
 			margin:0;
     	}
