@@ -5,7 +5,7 @@
 }
 
 h1 {
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 	font-size: 44px;
 }
 
@@ -26,6 +26,13 @@ h2 {
 
 .service {
 	margin-bottom: 40px;
+}
+
+.service p {
+	padding: 0px 3%;
+	color: #707e8c;
+	font-size: 16px;
+
 }
 
 
@@ -99,17 +106,21 @@ h2 {
 	margin-bottom: 70px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
+/*FOOTER*/
 footer{
 	min-height:400px;
 }
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+
+}
+/*Mobile+ end*/
+
+@media screen and (max-width: 767px) {
+	.service p {
+	padding: 0px 10%;
+	}
+
+}
+/*Mobile end*/
