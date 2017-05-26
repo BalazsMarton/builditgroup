@@ -207,7 +207,7 @@ background-color: #1abb9c;
 
 .bottom-footer ul li {
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 7px;
 }
 
 .bottom-footer ul {
@@ -231,7 +231,8 @@ background-color: #1abb9c;
 
 .top-footer h2,
 .top-footer h4,
-.top-footer a {
+.top-footer a,
+.footer-about small {
 	color: #fff;
 }
 
@@ -241,7 +242,6 @@ background-color: #1abb9c;
 
 .footer-about a i {
 	padding-left: 5px;
-	font-size: 0.9em;
 }
 
 .footer-about a:hover {
@@ -278,6 +278,8 @@ background-color: #1abb9c;
 
 
 
+
+
 /* Media queries */
 @media screen and (min-width: 768px) {
 
@@ -302,6 +304,10 @@ background-color: #1abb9c;
 		text-align: center;
 		padding-left: 0px;
 		padding-bottom: 10px;
+	}
+
+	.service {
+		margin-bottom: 50px;
 	}
 
 }
