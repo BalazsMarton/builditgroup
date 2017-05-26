@@ -3,11 +3,11 @@ if(('.owl-carousel').length) {
     $('.owl-carousel').owlCarousel({
         items: 1,
         dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
+        animateOut: 'slideOutDown',
+        animateIn: '',
         loop:true,
         autoplay:true,
-        autoplayTimeout:5000,
+        autoplayTimeout:12000,
         touchDrag  : false,
         mouseDrag  : false,
     });

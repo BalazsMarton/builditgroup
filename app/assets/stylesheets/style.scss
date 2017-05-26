@@ -49,10 +49,21 @@ display: box;
     .carousel-title{
     	width:100%;
     	text-align:center;
+    	color: #fff;
     	h1{
+    		-webkit-animation-duration: 2000ms;
+    		animation-duration: 2000ms;
+    		-webkit-animation-fill-mode: both;
+    		animation-fill-mode: both;
+    		transition-duration: 2000ms;
 			margin:0;
     	}
-    	p{
+    	h5{
+    		-webkit-animation-duration: 2000ms;
+    		animation-duration: 2000ms;
+    		-webkit-animation-fill-mode: both;
+    		animation-fill-mode: both;
+    		transition-duration: 2000ms;
 			margin:0;
     	}
     }
@@ -72,6 +83,9 @@ p {
 	font-family: "sourcesanspro-bold";
 	font-size: 36px;
 	white-space: normal;
+}
+content .container-fluid{
+	min-height:calc(100vh - 62px);
 }
 
 /* NAV Styles */
