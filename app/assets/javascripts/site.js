@@ -15,8 +15,11 @@ if(('.owl-carousel').length) {
       var item = event.item.index - 2;     // Position of the current item
       $('h1').removeClass('animated fadeInLeft');
       $('h5').removeClass('animated fadeInRight');
+      $('.carousel-title .container button').removeClass('animated fadeInUp');
         $('.owl-item').not('.cloned').eq(item).find('h1').addClass('animated fadeInLeft');
         $('.owl-item').not('.cloned').eq(item).find('h5').addClass('animated fadeInRight');
+        $('.owl-item').not('.cloned').eq(item).find('.carousel-title .container button').addClass('animated fadeInUp');
+
     });
 
     if(window.matchMedia('(max-width: 767px)').matches) {
