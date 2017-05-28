@@ -5,7 +5,7 @@
 				<h4>Kik vagyunk?</h4>
 				<h2>Build-IT. <small>Group</small></h2>
 				<p>Morbi tincidunt consectetur libero id cursus. Curabitur sed luctus felis. Mauris congue nunc aliquet orci efficitur scelerisque. In consectetur magna dapibus, tempus felis a, feugiat lectus.</p>
-				<a href="">Tudjon meg többet!<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></i></a>
+				<a href="">Tudjon meg többet!<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 			</div><!--col-->
 			<div class="footer-contact col-sm-12 col-md-6">
 				<h4>Elérhetőségeink</h4>
@@ -21,15 +21,16 @@
 	</div><!--row-->
 	<div class="bottom-footer row">
 		<div class="container">
-			<div class="buildit col-sm-12 col-md-6">
-				<p>2017 Build-IT Group</p>
+			<div class="buildit col-xs-12 col-sm-6 col-md-6">
+				2017 Build-IT Group
 			</div>
-			<div class="footer-menu col-sm-12 col-md-6">
-				<ul class="pull-right">
-					<li><a href="">Rólunk</a></li>
-					<li><a href="">Szolgáltatások</a></li>
-					<li><a href="">Referenciák</a></li>
-					<li><a href="">Kapcsolat</a></li>
+			<div class="footer-menu col-xs-12 col-sm-6 col-md-6">
+				<ul class="">
+					<li class="<%= 'active' if current_page?(root_path) %>"><%= link_to 'Főoldal', root_path %></li>
+        			<li class="<%= 'active' if current_page?(rolunk_path) %>"><%= link_to 'Rólunk', rolunk_path %></li>
+        			<li class="<%= 'active' if current_page?(szolgaltatasok_path) %>"><%= link_to 'Szolgáltatások', szolgaltatasok_path %></li>
+        			<li class="<%= 'active' if current_page?(referenciak_path) %>"><%= link_to 'Referenciák', referenciak_path %></li>
+        			<li class="<%= 'active' if current_page?(kapcsolat_path) %>"><%= link_to 'Kapcsolat', kapcsolat_path %></li>
 				</ul>
 			</div>
 		</div><!-- container -->

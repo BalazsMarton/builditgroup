@@ -1,0 +1,92 @@
+/* ABOUT PAGE */
+
+#about-hero {
+	height: 350px;
+	background-color: #1abb9c;
+	margin-top: 0px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+#about-hero h1 {
+	font-size: 60px;
+}
+
+
+#whoweare h2 {
+	color: #506a85;
+	margin-bottom: 20px;
+}
+
+#whoweare p {
+	color:  #73879c;
+	font-size: 18px;
+	padding-right: 10%;
+}
+
+/* Aboutus */
+
+#aboutus h1,
+#aboutus h2 {
+	color: #506a85;
+}
+
+#aboutus h1 {
+	margin-bottom: 25px;
+}
+
+#aboutus p {
+	font-size: 18px;
+}
+
+#aboutus p,
+#aboutus blockquote {
+	color: #73879c;
+}
+
+#aboutus h2 span {
+	display: block;
+	font-size: 18px;
+	font-family: sourcesanspro-regular;
+	margin-top: 10px;
+}
+
+#aboutus blockquote {
+	border: none !important;
+	font-size: 16px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#aboutus img {
+	border-radius: 100%;
+	width: 175px;
+}
+
+#aboutus {
+	 background-color: #f2f5f7;
+	 margin-top: 120px;
+}
+
+
+#aboutus .container {
+	margin-bottom: 90px;
+	margin-top: 90px;
+}
+
+.profiles {
+	margin-top: 75px;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+
+}
+/*Mobile+ end*/
+
+@media screen and (max-width: 767px) {
+
+}
+/*Mobile end*/
