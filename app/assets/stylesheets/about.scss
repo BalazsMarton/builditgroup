@@ -87,22 +87,31 @@
 #aboutworkwithus {
 	margin-top: 0px;
 	background-color: #1abb9c;
-	height: 300px;
+	min-height: 400px;
 }
 
 #aboutworkwithus h1 {
 	color: #fff;
+	margin-bottom: 25px;
+}
+
+#aboutworkwithus h5 {
+	color: #fff;
 }
 
 #aboutworkwithus button {
-	color: #1abb9c;
+	color: #fff;
+	background-color: transparent;
 	text-transform: uppercase;
  	font-family: 'sourcesanspro-bold';
- 	box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+ 	border: 1px solid #fff;
+ 	border-radius: 0px;
+ 	margin-top: 20px;
 }
 
 #aboutworkwithus button:hover {
-	color: #506a85;
+	color: #1abb9c;
+	background-color: #fff;
 }
 
 #aboutworkwithus {
