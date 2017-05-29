@@ -1,8 +1,9 @@
 /* ABOUT PAGE */
 
 #about-hero {
-	height: 350px;
-	background-color: #1abb9c;
+	min-height: 350px;
+	background: url('../img/laptop.jpg') 50% 50%;
+	background-size: cover;
 	margin-top: 0px;
 	color: #fff;
 	display: flex;
@@ -38,7 +39,7 @@
 }
 
 #aboutus p {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 #aboutus p,
@@ -80,6 +81,51 @@
 	margin-top: 75px;
 }
 
+
+/* work with us */
+
+#aboutworkwithus {
+	margin-top: 0px;
+	background-color: #1abb9c;
+	height: 300px;
+}
+
+#aboutworkwithus h1 {
+	color: #fff;
+}
+
+#aboutworkwithus button {
+	color: #1abb9c;
+	text-transform: uppercase;
+ 	font-family: 'sourcesanspro-bold';
+ 	box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+}
+
+#aboutworkwithus button:hover {
+	color: #506a85;
+}
+
+#aboutworkwithus {
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media queries */
 @media screen and (min-width: 768px) {
 
@@ -87,6 +133,17 @@
 /*Mobile+ end*/
 
 @media screen and (max-width: 767px) {
+	.member {
+		margin-bottom: 50px;
+	}
 
+	#about-hero h1 {
+	font-size: 38px;
+	}
+
+	#aboutworkwithus h1,
+	#aboutus h1 {
+		font-size: 33px;
+	}
 }
 /*Mobile end*/

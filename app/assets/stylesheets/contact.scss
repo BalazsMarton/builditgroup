@@ -1,0 +1,86 @@
+/* contact info */
+
+#contact-info {
+	margin-top: 0px;
+	min-height: 400px;
+	background: url('../img/getintouch2.jpg') 50% 50%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+
+#contact-info h1,
+#contact-info h3 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#contact-info h3 {
+	font-size: 20px;
+}
+
+#contact-info p {
+	font-size: 22px;
+	color: #a3b1bf;
+}
+
+#contact-info ul {
+	padding-left: 0px;
+}
+
+#contact-info li {
+	color: #a3b1bf;
+	font-size: 18px;
+	list-style: none;
+	line-height: 150%;
+}
+
+#contact-info li a {
+	color: #a3b1bf;
+}
+
+#contact-info li a:hover {
+	color: #1abb9c;
+}
+
+#contact-info li  i {
+	width: 14px;
+	margin-right: 13px;
+}
+
+#contact-form {
+	margin-bottom: 100px;
+}
+
+#contact-form button {
+ background-color: #1abb9c;
+ color: #fff;
+ text-transform: uppercase;
+ font-family: 'sourcesanspro-bold';
+ box-shadow: 0px 2px #14957c;
+ border: none;
+ margin-top: 20px;
+}
+
+#contact-form h2{
+	color: #506a85;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.form-group .form-control {
+	border: 1px solid #e6e9ed;
+}
+
+.form-group .form-control:active,
+.form-group .form-control:focus {
+	border: 1px solid rgba(80, 106, 133, 0.4);
+	box-shadow: none;
+}
+
+@media screen and (max-width: 767px) {
+	#contact-info h1 {
+		font-size: 33px;
+	}
+}
