@@ -1,6 +1,10 @@
 document.addEventListener("turbolinks:load", function() {
 if(('.owl-carousel').length) {
-    $('.owl-carousel').owlCarousel({
+    if(window.matchMedia('(max-width: 767px)').matches) {
+        var bg = jQuery(".carousel-item");
+        bg.height(jQuery(window).height()-62);
+    };
+    $('.owl-carousel.opening-carousel').owlCarousel({
         items: 1,
         dots: false,
         animateOut: 'slideOutDown',
@@ -21,11 +25,17 @@ if(('.owl-carousel').length) {
         $('.owl-item').not('.cloned').eq(item).find('.carousel-title .container button').addClass('animated fadeInUp');
 
     });
-
-    if(window.matchMedia('(max-width: 767px)').matches) {
-        var bg = jQuery(".carousel-item");
-        bg.height(jQuery(window).height()-62);
-    };
+    $('.works-carousel.works-carousel').owlCarousel({
+        items: 1,
+        dots: false,
+        animateOut: '',
+        animateIn: 'fadeIn',
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:8000,
+        touchDrag  : false,
+        mouseDrag  : false,
+    });
 }
 $("#full-navbar").headroom({
 	"offset": 205,

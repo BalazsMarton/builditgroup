@@ -49,29 +49,16 @@
 
 
 <div class="row section" id="works">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h1 class="wow fadeInUp">Check out our latest works</h1>
 				<h5 class="wow fadeInUp lead">Suspendisse porttitor sed elit in scelerisque. Nulla tincidunt lectus vel nulla mattis, volutpat fermentum justo vulputate.</h5>
 			</div><!--col-->
 		</div><!--row-->
-		<div class="row">
-			<div class="wow fadeInLeft col-sm-12 col-md-6 text-center">
-				<div class="ref">
-					<img class="img-responsive" src="img/screen.jpg">
-					<h3><a href="#">Nullam tempor lorem sit amet.</a></h3>
-					<p>vulputate</p>
-				</div>
-			</div><!--col-->
-			<div class="wow fadeInRight col-sm-12 col-md-6 text-center">
-				<div class="ref">
-					<img class="img-responsive" src="img/screen.jpg">
-					<h3><a href="#">Nullam tempor lorem sit amet.</a></h3>
-					<p>vulputate</p>
-				</div>
-			</div><!--col-->
-		</div><!--row-->
+			<div class="row">
+				<%= render 'pages/workscarousel' %>
+			</div>
 		<div class="wow fadeInUp button-row text-center">
 			
 			<button type="button" class="btn btn-default btn-lg">Még több</button>
