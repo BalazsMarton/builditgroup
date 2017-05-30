@@ -73,7 +73,7 @@
 
 
 #aboutus .container {
-	margin-bottom: 90px;
+	margin-bottom: 110px;
 	margin-top: 90px;
 }
 
@@ -81,11 +81,45 @@
 	margin-top: 75px;
 }
 
+/* Why Us */
 
-/* work with us */
+#whyus h1,
+#whyus h2 {
+	color: #506a85;	
+}
+
+#whyus h1 {
+	margin-bottom: 50px;
+}
+
+#whyus h5 {
+	color: #707e8c;
+}
+
+#whyus {
+	margin-bottom: 40px;
+}
+
+#whyus p {
+	padding: 0px 3%;
+	color: #707e8c;
+	font-size: 16px;
+
+}
+
+#whyus i {
+	color: #1abb9c;
+}
+
+#whyus .container {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+
+/* work with us */	
 
 #aboutworkwithus {
-	margin-top: 0px;
 	background-color: #1abb9c;
 	min-height: 400px;
 }
@@ -122,19 +156,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media queries */
 @media screen and (min-width: 768px) {
 
@@ -142,7 +163,8 @@
 /*Mobile+ end*/
 
 @media screen and (max-width: 767px) {
-	.member {
+	.member,
+	#whyus p {
 		margin-bottom: 50px;
 	}
 
@@ -151,8 +173,10 @@
 	}
 
 	#aboutworkwithus h1,
-	#aboutus h1 {
+	#aboutus h1,
+	#whyus h1 {
 		font-size: 33px;
 	}
+
 }
 /*Mobile end*/
