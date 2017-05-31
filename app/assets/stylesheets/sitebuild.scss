@@ -58,17 +58,16 @@ h2 {
 
 /* works */
 
-#works {
+#works{	
 	background-color: #f2f5f7;
-}
-
-#works h1 {
-	color: #506a85;
-	margin-top: 75px;
-}
-
-#works h5 {
-	color: #707e8c;
+	.index-works-title{
+		h1{
+			color: #506a85;
+		}
+		h5 {
+		color: #707e8c;
+		}
+	}
 }
 
 #works .ref {

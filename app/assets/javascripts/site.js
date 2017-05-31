@@ -28,6 +28,8 @@ if(('.owl-carousel').length) {
     $('.works-carousel.works-carousel').owlCarousel({
         items: 1,
         dots: false,
+        nav: true,
+        navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
         animateOut: '',
         animateIn: 'fadeIn',
         loop:true,
