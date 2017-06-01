@@ -1,0 +1,64 @@
+#serv-page-hero {
+	min-height: 350px;
+	background: url('../img/stuffs.jpg') 50% 50%;
+	background-size: cover;
+	margin-top: 0px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+#serv-page-hero h1 {
+	font-size: 60px;
+}
+
+.serv-page-item h2{
+	font-size: 26px;
+	color: #506a85;
+	margin-bottom: 40px;
+}
+
+.serv-page-item p {
+	font-size: 18px;
+	color: #73879c;
+}
+
+#webdesign,
+#webdevelopment,
+#sitebuild,
+#arculat,
+#support,
+#seo {
+	margin-top: 40px;
+}
+
+.serv-page-item .icon {
+	background-color: #1abb9c;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.serv-page-item span {
+	display: block;
+	margin-top: -12px;
+	padding-top: 0px;
+	color: #1abb9c;
+}
+
+.serv-page-item .padd {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#webdevelopment,
+#arculat,
+#seo {
+	background-color: #f2f5f7;
+}
+
+.serv-page-item .container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

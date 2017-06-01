@@ -100,15 +100,16 @@ h2 {
  font-family: 'sourcesanspro-bold';
  box-shadow: 0px 2px #14957c;
  border: none;
+ margin-top: 45px;
 }
 
 #works button:hover {
 	background-color: #17a88c;
 }
 
-.button-row {
-	margin-bottom: 70px;
-
+#works .container-fluid {
+	margin-bottom: 90px;
+	margin-top: 70px;
 }
 
 /* work with Us */
