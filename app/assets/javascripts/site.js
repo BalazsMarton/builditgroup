@@ -15,7 +15,7 @@ if(('.owl-carousel').length) {
         touchDrag  : false,
         mouseDrag  : false,
     });
-    $('.owl-carousel').on('changed.owl.carousel', function(event) {
+    $('.owl-carousel.opening-carousel').on('changed.owl.carousel', function(event) {
       var item = event.item.index - 2;     // Position of the current item
       $('h1').removeClass('animated fadeInLeft');
       $('h5').removeClass('animated fadeInRight');
@@ -25,7 +25,7 @@ if(('.owl-carousel').length) {
         $('.owl-item').not('.cloned').eq(item).find('.carousel-title .container button').addClass('animated fadeInUp');
 
     });
-    $('.works-carousel.works-carousel').owlCarousel({
+    $('.owl-carousel.works-carousel').owlCarousel({
         items: 1,
         dots: false,
         nav: true,
