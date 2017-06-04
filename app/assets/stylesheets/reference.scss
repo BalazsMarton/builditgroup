@@ -1,0 +1,32 @@
+#references-hero {
+	height: 250px;
+	background-color: #1abb9c;
+	margin-top: 0px;
+}
+
+#references-hero  {
+	display: flex;
+	align-items: center;
+}
+
+#references-hero h1 {
+	color: #fff;
+	font-size: 60px;
+}
+
+.refpic {
+	margin: 0px !important;
+	padding: 0px 5px 5px 0px;
+	min-height: 250px;
+	overflow: hidden;
+}
+
+#ref-images {
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+	#references-hero h1 {
+		font-size: 38px;
+	}
+}
