@@ -65,8 +65,17 @@
 
 
 @media screen and (max-width: 767px) {
-	#serv-page-hero h1 {
-		font-size: 33px;
+	#serv-page-hero h1,
+	#workwithus h1	 {
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	#serv-page-hero h1,
+	#workwithus h1	 {
+		font-size: 26px;
 	}
 
 }

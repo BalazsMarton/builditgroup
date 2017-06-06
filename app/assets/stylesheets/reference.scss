@@ -12,6 +12,7 @@
 #references-hero h1 {
 	color: #fff;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 .refpic {
@@ -27,6 +28,12 @@
 
 @media screen and (max-width: 767px) {
 	#references-hero h1 {
-		font-size: 38px;
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#references-hero h1 {
+		font-size: 26px;
 	}
 }

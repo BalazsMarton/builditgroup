@@ -169,13 +169,31 @@
 	}
 
 	#about-hero h1 {
-	font-size: 38px;
+	font-size: 30px;
 	}
 
 	#aboutworkwithus h1,
 	#aboutus h1,
 	#whyus h1 {
-		font-size: 33px;
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.member,
+	#whyus p {
+		margin-bottom: 50px;
+	}
+
+	#about-hero h1 {
+	font-size: 26px;
+	}
+
+	#aboutworkwithus h1,
+	#aboutus h1,
+	#whyus h1 {
+		font-size: 26px;
 	}
 
 }
