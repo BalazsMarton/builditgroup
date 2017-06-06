@@ -55,6 +55,13 @@ $(".navbar-toggle").click(function() {
         return $("body").addClass("no-scroll");
     }
 });
+
 new WOW().init();
+
+$('.ref-modal').click(function(){
+    var refatt = (this).getAttribute("data-remodal-target");
+    $('[data-remodal-id=' + refatt + ']').remodal();
+});
+
 
 })
