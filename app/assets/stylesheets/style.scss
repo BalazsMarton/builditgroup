@@ -297,6 +297,23 @@ p {
 	.buildit {
 		text-align: center;
 	}
+    /*opening,root carousel*/
+    #opening-carousel-wrap{
+      h1{
+        font-size:30px;
+      }
+    }
+    /*works carousel index page*/
+    .works-carousel-heading-wrap{
+      text-align:center;
+      h1{
+        font-size: 30px;
+        line-height: 1.8 !important;
+      }
+      h3{
+
+      }
+    }
 
 }
 
@@ -335,6 +352,28 @@ p {
 	.footer-menu{
 	padding-left: 0;
 	}
+}
+
+/*Mobile low*/
+@media screen and (max-width: 320px) {
+  /*opening,root carousel*/
+  #opening-carousel-wrap{
+    h1{
+      font-size:26px;
+    }
+  }
+  /*works carousel index page*/
+  .works-carousel-heading-wrap{
+    text-align:center;
+    h1{
+      font-size: 26px;
+      line-height: 1.8 !important;
+    }
+    h3{
+      font-size: 22px;
+      line-height: 1.85 !important;
+    }
+  }
 }
 
 /* Media queries end*/
