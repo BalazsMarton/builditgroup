@@ -3,42 +3,48 @@
 		<div class="owl-carousel owl-theme opening-carousel">
 			<div class="carousel-item" style="background-image: url('/img/stuffs.jpg')">
 				<div class="carousel-title">
-                    <div class="container">
-                        <h1 class="animated fadeInLeft">
-                        	Üdvözöljük oldalunkon!
-                        </h1>
-                        <h5 class="lead animated fadeInRight">
-                        	 Letisztult, felhasználóbarát weboldalakat készítünk, melyek képesek arra hogy egy vállalkozás sikerét jelentős mértékben növeljék. 
-                        </h5>
-                        <button type="button" class="btn btn-default btn-lg animated fadeInUp">Árajánlat kérés</button>
-                    </div>
-                </div>	
+          <div class="container">
+            <h1 class="animated fadeInLeft">
+              Üdvözöljük oldalunkon!
+            </h1>
+            <h5 class="lead animated fadeInRight">
+              Letisztult, felhasználóbarát weboldalakat készítünk, melyek képesek arra hogy egy vállalkozás sikerét jelentős mértékben növeljék.
+            </h5>
+            <%= link_to kapcsolat_path do %>
+                <button type="button" class="btn btn-default btn-lg animated fadeInUp">Árajánlat kérés</button>
+            <% end %>
+          </div>
+        </div>
 			</div>
 			<div class="carousel-item" style="background-image: url('/img/business.jpg')">
 				<div class="carousel-title">
-                    <div class="container">
-                        <h1 class="">
-                        	Építsük fel!
-                        </h1>
-                        <h5 class="lead">
-                        	Mi igényeihez és kereteihez tökéletesen alkalmazkodva építjük fel vállalkozásának weboldalát lépésről-lépésre.
-                        </h5>
-                        <button type="button" class="btn btn-default btn-lg">Érdekel!</button>
-                    </div>
-                </div>
+          <div class="container">
+            <h1 class="">
+              Építsük fel!
+            </h1>
+            <h5 class="lead">
+              Mi igényeihez és kereteihez tökéletesen alkalmazkodva építjük fel vállalkozásának weboldalát lépésről-lépésre.
+            </h5>
+            <%=	link_to kapcsolat_path do %>
+                <button type="button" class="btn btn-default btn-lg">Érdekel!</button>
+            <% end %>
+          </div>
+        </div>
 			</div>
 			<div class="carousel-item" style="background-image: url('/img/design.jpg')">
 				<div class="carousel-title">
-                    <div class="container">
-                        <h1 class="">
-                        	Egyedi webdesign
-                        </h1>
-                        <h5 class="lead">
-                        	 Mi ötleteit és elképzeléseit megvalósítjuk, így weboldala pont olyan lesz, amilyennek látni szeretné.
-                        </h5>
-                        <button type="button" class="btn btn-default btn-lg">Bővebben!</button>
-                    </div>
-                </div>
+          <div class="container">
+            <h1 class="">
+              Egyedi webdesign
+            </h1>
+            <h5 class="lead">
+              Mi ötleteit és elképzeléseit megvalósítjuk, így weboldala pont olyan lesz, amilyennek látni szeretné.
+            </h5>
+            <%=	link_to szolgaltatasok_path do %>
+                <button type="button" class="btn btn-default btn-lg">Bővebben!</button>
+            <% end %>
+          </div>
+        </div>
 			</div>
 		</div>	
 	</div>
