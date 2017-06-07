@@ -38,7 +38,9 @@
 	               <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>                  
 	            </div>
 	            <div class="row text-center">
-	            	<button type="button" class="btn btn-default btn-lg">Elküld</button>
+                <%=	link_to kapcsolat_path do %>
+                    <button type="button" class="btn btn-default btn-lg">Elküld</button>
+                <% end %>
 	            </div><!--button-row-->
 			</div><!--col-->
 		</div><!--row-->
