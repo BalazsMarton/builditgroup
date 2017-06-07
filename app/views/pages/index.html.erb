@@ -60,8 +60,9 @@
 				<%= render 'pages/workscarousel' %>
 			</div>
 		<div class="wow fadeInUp button-row text-center">
-			
-			<button type="button" class="btn btn-default btn-lg">Még több</button>
+			<%= link_to referenciak_path do %>
+          <button type="button" class="btn btn-default btn-lg">Még több</button>
+      <% end %>
 		</div>
 	</div><!--container-->
 </div><!-- row -->
@@ -73,7 +74,9 @@
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h1 class="wow fadeInUp">Szeretne Velünk dolgozni?</h1>
 				<h5 class="wow fadeInUp lead">Írja le üzenetében hogy pontosan milyen munkára lenne szüksége, mi pedig készítünk Önnek ajánlatot egy hozzávetőleges árral. Ezt követően személyesen is találkozhatunk, melynek során megbeszéljük a projekt részleteit.</h5>
-				<button type="button" class="wow fadeInUp btn btn-default btn-lg">Üzenetküldés</button>
+				<%=	link_to kapcsolat_path do %>
+            <button type="button" class="wow fadeInUp btn btn-default btn-lg">Üzenetküldés</button>
+        <% end %>
 			</div>			
 		</div><!--row-->		
 	</div><!--container-->
