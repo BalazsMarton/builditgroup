@@ -40,15 +40,27 @@
   }
 }
 
+.remodal h1 {
+	color: #506a85;
+	font-family: "lato-bold";
+	margin-bottom: 20px;
+}
+
+.remodal p {
+	font-size: 16px;
+	color: #707e8c;
+}
 
 @media screen and (max-width: 767px) {
-	#references-hero h1 {
+	#references-hero h1,
+	.remodal h1 {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 320px) {
-	#references-hero h1 {
+	#references-hero h1,
+	.remodal h1 {
 		font-size: 26px;
 	}
 }
