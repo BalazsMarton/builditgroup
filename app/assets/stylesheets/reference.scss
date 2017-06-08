@@ -19,6 +19,7 @@
 	margin: 0px !important;
 	padding:5px;
 	overflow: hidden;
+	position: relative;
 }
 
 #ref-images {
@@ -26,16 +27,17 @@
 }
 
 .ref-modal-button{
-  color:silver;
+  color: #1abb9c;
   border:none;
   text-transform: uppercase;
   border: 1px solid transparent;
+  font-family: 'sourcesanspro-regular';
   border-radius: 0px;
   transition-duration: 0.6s;
   margin-top: 20px;
   &:hover{
-    border: 1px solid silver;
-    background-color:silver;
+    border: 1px solid #1abb9c;
+    background-color:#1abb9c;
     color:white;
   }
 }
@@ -50,6 +52,41 @@
 	font-size: 16px;
 	color: #707e8c;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background-color: rgba(47, 64, 82, 0);
+  display: flex;
+  align-items: center;
+}
+
+.refpic:hover .overlay {
+  background-color: rgba(47, 64, 82, .8);
+}
+
+.overlay h1 {
+  color: rgba(255, 255, 255, 0);	
+  font-size: 75px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.refpic:hover .overlay h1 {
+	color: rgba(255, 255, 255, 1);
+}
+
+
+
 
 @media screen and (max-width: 767px) {
 	#references-hero h1,
