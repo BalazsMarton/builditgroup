@@ -53,3 +53,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  #production postgres database
+  gem 'pg'
+  #heroku
+  gem 'rails_12factor'
+end
+
