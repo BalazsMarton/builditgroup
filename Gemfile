@@ -34,6 +34,13 @@ gem 'puma'
 #puma heroku gem
 gem 'puma-heroku'
 
+#secret keyz
+gem 'figaro'
+
+#contact mailer
+gem 'sendgrid-ruby'
+gem 'sendgrid-actionmailer'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

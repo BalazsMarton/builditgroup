@@ -57,6 +57,10 @@ GEM
     debug_inspector (0.0.3)
     erubis (2.7.0)
     execjs (2.7.0)
+    faraday (0.12.1)
+      multipart-post (>= 1.2, < 3)
+    figaro (1.1.1)
+      thor (~> 0.14)
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
     globalid (0.4.0)
@@ -77,9 +81,11 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
+    mimemagic (0.3.2)
     mini_portile2 (2.1.0)
     minitest (5.10.2)
     multi_json (1.12.1)
+    multipart-post (2.0.0)
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     pg (0.20.0)
@@ -131,6 +137,14 @@ GEM
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    sendgrid-actionmailer (0.2.1)
+      mail (~> 2.5)
+      sendgrid-ruby (< 2.0)
+    sendgrid-ruby (1.1.6)
+      faraday (~> 0.9)
+      mimemagic
+      smtpapi (~> 0.1)
+    smtpapi (0.1.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     sprockets (3.7.1)
@@ -164,6 +178,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   byebug
   coffee-rails (~> 4.1.0)
+  figaro
   font-awesome-sass
   jbuilder (~> 2.0)
   jquery-rails
@@ -175,6 +190,8 @@ DEPENDENCIES
   remodal-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  sendgrid-actionmailer
+  sendgrid-ruby
   spring
   sqlite3
   turbolinks
