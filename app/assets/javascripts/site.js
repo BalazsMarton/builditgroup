@@ -63,5 +63,9 @@ $('.ref-modal').click(function(){
     $('[data-remodal-id=' + refatt + ']').remodal();
 });
 
+$('.errors').click(function(){
+    $(this).remove();
+});
+
 
 });
