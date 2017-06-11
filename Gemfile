@@ -26,6 +26,11 @@ gem 'bootstrap-sass', '~> 3.3.6'
 # official font awesome gem http://fontawesome.io/get-started/
 gem 'font-awesome-sass'
 
+#wow js https://github.com/railslauncher/wow-rails
+gem 'wow-rails'
+
+#owl carousel 2 gem https://github.com/ilja/owlcarousel2-rails
+gem 'owlcarousel2-rails'
 # remodal rails
 gem 'remodal-rails'
 

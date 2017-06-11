@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require remodal
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require owl.carousel2
+//= require wow
+//= require remodal
 //= require_tree .
