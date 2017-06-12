@@ -49,6 +49,10 @@ gem 'sendgrid-actionmailer'
 #seo
 gem 'meta-tags'
 
+#analytics
+gem 'google-analytics-rails', '1.1.0'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
