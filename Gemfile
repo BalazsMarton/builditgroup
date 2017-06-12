@@ -46,6 +46,9 @@ gem 'figaro'
 gem 'sendgrid-ruby'
 gem 'sendgrid-actionmailer'
 
+#seo
+gem 'meta-tags'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
