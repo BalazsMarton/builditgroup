@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
-	
+	include ActionView::Helpers::TextHelper
+
 	def index
 		#meta gem -seo - generate metacontent
 		@page_title = 'Egyedi weboldalkészítés, webfejlesztés'
