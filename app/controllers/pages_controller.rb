@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-	include ActionView::Helpers::TextHelper
 
 	def index
 		#meta gem -seo - generate metacontent
@@ -15,7 +14,7 @@ class PagesController < ApplicationController
 				type:     'website',
 				url: 	'http://builditgroup.hu',
 				image:    'http://builditgroup.hu/img/og-images/index.jpg',
-				description: '(Egyedi, reszponzív weboldalak készítése, webfejlesztés, keresőoptimalizálás.).gsub(/\s+/, " ").first(300)',
+				description: 'Egyedi, reszponzív weboldalak készítése, webfejlesztés, keresőoptimalizálás.',
 		}
 	end
 
@@ -33,7 +32,7 @@ class PagesController < ApplicationController
 				type:     'website',
 				url: 	'http://builditgroup.hu/rolunk',
 				image:    'http://builditgroup.hu/img/og-images/about.jpg',
-				description: '(Egy budapesti webfejlesztő csapat vagyunk, egyedi weboldalakat készítünk, melyek képesek arra, hogy egy vállalkozás sikereit növeljék.).gsub(/\s+/, " ").first(300)',
+				description: 'Egy budapesti webfejlesztő csapat vagyunk, egyedi weboldalakat készítünk, melyek képesek arra, hogy egy vállalkozás sikereit növeljék.',
 		}
 	end
 
@@ -51,7 +50,7 @@ class PagesController < ApplicationController
 				type:     'website',
 				url: 	'http://builditgroup.hu/kapcsolat',
 				image:    'http://builditgroup.hu/img/og-images/contact.jpg',
-				description: '(Ha szeretne egy egyedi, letisztult, reszponzív weboldalt kedvező áron, vegye fel Velünk a kapcsolatot!).gsub(/\s+/, " ").first(300)',
+				description: 'Ha szeretne egy egyedi, letisztult, reszponzív weboldalt kedvező áron, vegye fel Velünk a kapcsolatot!',
 		}
 	end
 
@@ -69,7 +68,7 @@ class PagesController < ApplicationController
 				type:     'website',
 				url: 	'http://builditgroup.hu/referenciak',
 				image:    'http://builditgroup.hu/img/og-images/reference.jpg',
-				description: '(Egyedi weboldalak, webdesign, webfejlesztés. Nézze meg néhány korábbi munkánkat.).gsub(/\s+/, " ").first(300)',
+				description: 'Egyedi weboldalak, webdesign, webfejlesztés. Nézze meg néhány korábbi munkánkat.',
 		}
 	end
 
@@ -88,7 +87,7 @@ class PagesController < ApplicationController
 				type:     'website',
 				url: 	'http://builditgroup.hu/szolgaltatasok',
 				image:    'http://builditgroup.hu/img/og-images/service.jpg',
-				description: '(Teljes körű webes szolgáltatást nyújtunk, az egyszerűbb Wordpress weboldalaktól kezdve, a teljesen egyedi webes applikációkig.).gsub(/\s+/, " ").first(300)',
+				description: 'Teljes körű webes szolgáltatást nyújtunk, az egyszerűbb Wordpress weboldalaktól kezdve, a teljesen egyedi webes applikációkig.',
 		}
 	end
 
