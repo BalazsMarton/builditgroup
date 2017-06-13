@@ -12,8 +12,8 @@ class PagesController < ApplicationController
 		set_meta_tags og: {
 				title: 'Egyedi weboldalkészítés, webfejlesztés',
 				type:     'website',
-				url: 	'http://mindenfele.hu',
-				image:    'http://mindenfele.hu/img/og-images/frontpage.jpg',
+				url: 	'http://builditgroup.hu',
+				image:    'http://builditgroup.hu/img/og-images/index.jpg',
 				description: '(Egyedi, reszponzív weboldalak készítése, webfejlesztés, keresőoptimalizálás.).gsub(/\s+/, " ").first(300)',
 		}
 	end
@@ -30,8 +30,8 @@ class PagesController < ApplicationController
 		set_meta_tags og: {
 				title: 'Rólunk',
 				type:     'website',
-				url: 	'http://mindenfele.hu/rolunk',
-				image:    'http://mindenfele.hu/img/og-images/about.jpg',
+				url: 	'http://builditgroup.hu/rolunk',
+				image:    'http://builditgroup.hu/img/og-images/about.jpg',
 				description: '(Egy budapesti webfejlesztő csapat vagyunk, egyedi weboldalakat készítünk, melyek képesek arra, hogy egy vállalkozás sikereit növeljék.).gsub(/\s+/, " ").first(300)',
 		}
 	end
@@ -48,8 +48,8 @@ class PagesController < ApplicationController
 		set_meta_tags og: {
 				title: 'Kapcsolat',
 				type:     'website',
-				url: 	'http://mindenfele.hu/kapcsolat',
-				image:    'http://mindenfele.hu/img/og-images/contact.jpg',
+				url: 	'http://builditgroup.hu/kapcsolat',
+				image:    'http://builditgroup.hu/img/og-images/contact.jpg',
 				description: '(Ha szeretne egy egyedi, letisztult, reszponzív weboldalt kedvező áron, vegye fel Velünk a kapcsolatot!).gsub(/\s+/, " ").first(300)',
 		}
 	end
@@ -66,8 +66,8 @@ class PagesController < ApplicationController
 		set_meta_tags og: {
 				title: 'Referenciák',
 				type:     'website',
-				url: 	'http://mindenfele.hu/referenciak',
-				image:    'http://mindenfele.hu/img/og-images/reference.jpg',
+				url: 	'http://builditgroup.hu/referenciak',
+				image:    'http://builditgroup.hu/img/og-images/reference.jpg',
 				description: '(Egyedi weboldalak, webdesign, webfejlesztés. Nézze meg néhány korábbi munkánkat.).gsub(/\s+/, " ").first(300)',
 		}
 	end
@@ -85,8 +85,8 @@ class PagesController < ApplicationController
 		set_meta_tags og: {
 				title: 'Szolgáltatások',
 				type:     'website',
-				url: 	'http://mindenfele.hu/szolgaltatasok',
-				image:    'http://mindenfele.hu/img/og-images/service.jpg',
+				url: 	'http://builditgroup.hu/szolgaltatasok',
+				image:    'http://builditgroup.hu/img/og-images/service.jpg',
 				description: '(Teljes körű webes szolgáltatást nyújtunk, az egyszerűbb Wordpress weboldalaktól kezdve, a teljesen egyedi webes applikációkig.).gsub(/\s+/, " ").first(300)',
 		}
 	end
