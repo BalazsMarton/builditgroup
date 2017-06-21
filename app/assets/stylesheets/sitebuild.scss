@@ -22,11 +22,13 @@ h2 {
 
 #services h5 {
 	color: #707e8c;
+	line-height: 150%;
+	font-size: 22px;
 }
 
 .service {
 	margin-bottom: 40px;
-	min-height: 200px;
+	min-height: 210px;
 }
 
 .serv-title {
@@ -37,7 +39,7 @@ h2 {
 	padding: 0px 3%;
 	color: #707e8c;
 	font-size: 16px;
-
+	line-height: 160%;
 }
 
 
@@ -121,13 +123,15 @@ h2 {
 
 #workwithus h5 {
 	color: #707e8c;
+	line-height: 150%;
+	font-size: 22px;
 }
 
 
 
 #workwithus h1 {
 	color: #506a85;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 #workwithus button {
@@ -242,6 +246,14 @@ background-color: #1abb9c;
 
 	.serv-title {
 		margin-bottom: 75px;
+	}
+
+	.services h5 {
+		font-size: 20px;
+	}
+
+	#workwithus h5 {
+		font-size: 20px;
 	}
 
 }
