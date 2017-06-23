@@ -1,4 +1,7 @@
 document.addEventListener("turbolinks:load", function() {
+
+    new WOW().init();
+
     if(('.owl-carousel').length) {
         if(window.matchMedia('(max-width: 767px)').matches) {
             var bg = jQuery(".carousel-item");
@@ -55,8 +58,6 @@ document.addEventListener("turbolinks:load", function() {
             return $("body").addClass("no-scroll");
         }
     });
-
-    new WOW().init();
 
     $('.ref-modal').click(function(){
         var refatt = (this).getAttribute("data-remodal-target");

@@ -25,17 +25,22 @@ font-stretch: $font-stretch;
 .animatehidden{
 }
 
+.wow { visibility: hidden; }
+
 /*OWL CAROUSEL INIT*/
 
 @keyframes worksanimation {
     0% {
-        transform:scale(1.1) translate(0,0);	
+      transform:scale(1.1) translate(0,0);
+      -ms-transform: scale(1.1) translate(0,0); /* IE 9 */
+      -webkit-transform: scale(1.1) translate(0,0);
     }
     50% {
     }
     100% {
-        transform:scale(1) translate(0px, -100px);
-  
+      transform:scale(1) translate(0px, -100px);
+      -ms-transform: scale(1) translate(0px, -100px); /* IE 9 */
+      -webkit-transform: scale(1) translate(0px, -100px);
     }
 }
 
@@ -67,6 +72,7 @@ right: 0;
 }
 .carousel-item{
 	display: flex;
+    display: -webkit-flex;
 	align-items:center;
 	padding:0px;
 	height: calc(100vh - 62px);
@@ -138,6 +144,7 @@ right: 0;
 .works-carousel-caption{
 	align-items:center;
 	display:flex;
+    display: -webkit-flex;
 	position:absolute;
 	z-index:10;
 	width: 100%;
